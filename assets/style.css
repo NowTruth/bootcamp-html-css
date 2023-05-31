@@ -1,0 +1,229 @@
+p {
+    color: red;
+}
+
+.contacts{
+  color:blue;
+}
+
+#address {
+  font-weight: bold;
+}
+
+h3.heading-3 {
+  color: aqua;
+}
+
+h3 {
+  color: cornflowerblue;
+}
+
+ul li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:21
+}
+
+#welcom-message {
+  color:rgb(255,150,0);
+  background-color:rgba(177,77,251,0.5);
+  font-weight: bold;
+  font-style: italic;
+}
+
+#message {
+  background-color: darksalmon;
+}
+
+.title {
+  color:darkgreen;
+  font-family: monospace;
+}
+
+ul li {
+  font-size:20px;
+}
+
+.i {
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.b {
+  font-weight: bold;
+  text-transform: lowercase;
+}
+
+.u {
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+span#content {
+  /*  overline: overline
+      line through: line-torough
+      underline: underline  */
+  text-decoration: overline;
+}
+
+div#content-wrapper {
+  text-align: center;
+  text-shadow: 2px 2px 5px #000;
+}
+
+div#leftcontent-wrapper {
+  text-align: left;
+}
+
+div#rightcontent-wrapper {
+  text-align: right;
+}
+
+p#indent {
+  text-indent: 20px;
+}
+
+span#letter-spacing {
+  letter-spacing: 3px;
+}
+
+span#word-spacing {
+  word-spacing: 5px;
+}
+
+div#test1 {
+  text-align: center;
+}
+
+span#first {
+  letter-spacing: 5px;
+}
+
+span#second {
+  text-shadow: 3px 3px 3px blue;
+  word-spacing: 5px;
+}
+
+ul#ul-list-style {
+  list-style-type: circle;
+}
+
+ol#ol-list-style {
+  list-style-type: lower-roman;
+}
+
+#ol-list-style ol {
+  /* list-style-type: upper-roman;
+  list-style-position: inside; */
+
+  /* shortthand for list-style-type and list-style-posiont */
+  list-style: inside upper-roman;
+}
+
+div#image {
+  border: solid thin #000;
+  padding: 20px;
+  height: 200px;
+  margin-top: 20px;
+  background-image: url('./../cat.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div#bird {
+  width: 100%;
+  height: 1500px;
+  border: solid thin #000;
+  background-image: url(./../bird.jpg);
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  /* background: #000 url(./../bird.jpg) no-repeat scroll center center; */
+}
+
+table {
+  border: solid thin #000;
+  font-family: 'Times New Roman', Times, serif;
+  empty-cells: hide;
+  /* border-collapse: collapse; */
+  border-spacing: 10px;
+}
+
+table thead td {
+  border: solid thin #0095ff;
+  font-weight: bold;
+}
+
+table tbody td {
+  border: solid thin red;
+}
+
+.name {
+  text-decoration: underline;
+}
+
+.country {
+  text-shadow: 5px 5px 5px #000;
+}
+
+.occupation {
+  text-transform: uppercase;
+}
+
+#box-model {
+  border: solid thick yellow;
+  /* margin: 20px; */
+  padding: 0px 20px 50px 30px;
+  border-radius: 20px 0px;
+  height: 30px;
+  width: 200px;
+  overflow: scroll;
+
+  box-shadow: 10px 10px 10px 10px red;
+  
+  margin: 10px auto; /*To center an element*/
+}
+
+#float-left {
+  float:left;
+  border:5px dashed #0096ff;
+  padding: 10px;
+  clear: both;
+}
+
+#float-right {
+  float: right;
+  border: 5px dashed #000;
+  padding: 10px;
+  margin-top: 10px;
+  clear: both;
+}
+
+#text-center {
+  text-align: center;
+}
+
+#position-relative {
+  border: 5px solid blue;
+  position:relative;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+}
+
+#position-absolute {
+  border:5px solid red;
+  position:absolute;
+}
+
+#position-fixed {
+  border:5px solid purple;
+  position:fixed;
+  top: 200px;
+  left: 300px;
+}
+
+#block-element {
+  display: block;
+}
